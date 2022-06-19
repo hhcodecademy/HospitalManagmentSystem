@@ -12,18 +12,22 @@ namespace HosbitalManagmentSystem.BLL.ServiceOperations
         public static void AddQualification()
         {
             Qualification qualification = new Qualification();
+            Console.WriteLine("Nomresini daxil edin:");
+            qualification.Number = int.Parse(Console.ReadLine());
             Console.WriteLine("Ixtisasinizi adin daxil edin :");
             qualification.Name = Console.ReadLine();
             Console.WriteLine("Ixtisasin aciqlamasini daxil edin :");
             qualification.Description = Console.ReadLine();
             DataOperation.Qualifications.Add(qualification);
         }
-        public static void ShowQualification()
+        public static int ShowQualification()
         {
+            
             foreach (var item in DataOperation.Qualifications)
             {
-                Console.WriteLine($"Id {item.ID}, ixtisasin adi {item.Name}, Ix haqqinda {item.Description}");
+                Console.WriteLine($"Nomre {item.Number}, ixtisasin adi {item.Name}, Ix haqqinda {item.Description}");
             }
+            return DataOperation.Qualifications.Count;
         }
 
 

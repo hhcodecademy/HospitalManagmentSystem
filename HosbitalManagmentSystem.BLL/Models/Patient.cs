@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HosbitalManagmentSystem.BLL.Util;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,7 +9,7 @@ namespace HosbitalManagmentSystem.BLL.Models
     {
         public Patient()
         {
-            ID = Guid.NewGuid().ToString();
+            ID = CustomIDGenerator.GetCurrentTimeId();
             Complaints = new List<string>();
         }
 

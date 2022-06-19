@@ -11,6 +11,8 @@ namespace HosbitalManagmentSystem.BLL.ServiceOperations
         public static void AddPosition()
         {
             Position position = new Position();
+            Console.WriteLine("Nomresini daxil edin:");
+            position.Number =int.Parse( Console.ReadLine());
             Console.WriteLine("Vezifenin adini daxil edin:");
             position.Name = Console.ReadLine();
             Console.WriteLine("Vezifenin izahini daxil edin:");
@@ -22,7 +24,7 @@ namespace HosbitalManagmentSystem.BLL.ServiceOperations
         {
             foreach (var item in DataOperation.Positions)
             {
-                Console.WriteLine($"Id {item.ID}, vezifenin adi {item.Name}, vz haqqinda {item.Description}");
+                Console.WriteLine($"Nomre {item.Number}, ixtisasin adi {item.Name}, Ix haqqinda {item.Description}");
 
             }
         }

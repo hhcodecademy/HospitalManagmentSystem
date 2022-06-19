@@ -6,7 +6,7 @@ namespace HosbitalManagmentSystem.BLL.Models
 {
     public class Diagnos
     {
-        public string ID { get; set; }
+        public Int64 ID { get; set; }
         public Patient Patient { get; set; }
         public Doctor Doctor { get; set; }
         public string DiagnosResult { get; set; }

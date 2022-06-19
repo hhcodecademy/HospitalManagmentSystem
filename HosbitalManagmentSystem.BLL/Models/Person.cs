@@ -8,7 +8,7 @@ namespace HosbitalManagmentSystem.BLL.Models
     public abstract class Person
     {
         
-        protected string ID { get; set; }
+        protected Int64 ID { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public GenderType GetGenderType { get; set; }
