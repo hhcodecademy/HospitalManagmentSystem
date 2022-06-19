@@ -1,4 +1,5 @@
-﻿using HosbitalManagmentSystem.BLL.ServiceOperations;
+﻿using HosbitalManagmentSystem.BLL.Models;
+using HosbitalManagmentSystem.BLL.ServiceOperations;
 using System;
 
 namespace HosbitalManagmentSystem.UI
@@ -23,15 +24,17 @@ namespace HosbitalManagmentSystem.UI
             switch (secim)
             {
                 case 1:
-                    PositionManager.AddPosition();
+
+                    Manager<Position>.serviceCall();
+             
                     menu();
                     break;
                 case 2:
-                    QualificationManager.AddQualification();
+                    Manager<Qualification>.serviceCall();
                     menu();
                     break;
                 case 3:
-                    DoctorManager.AddDoctor();
+                    Manager<Doctor>.serviceCall();
                     menu();
                     break;
                 case 4:
