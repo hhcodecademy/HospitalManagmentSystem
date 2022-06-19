@@ -1,0 +1,10 @@
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\bin\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.deps.json
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\bin\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.dll
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\bin\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.pdb
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.csproj.AssemblyReference.cache
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.AssemblyInfoInputs.cache
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.AssemblyInfo.cs
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.csproj.CoreCompileInputs.cache
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.dll
+C:\Users\elvinti\source\repos\HosbitalManagmentSystem\HosbitalManagmentSystem.BLL\obj\Debug\netcoreapp3.1\HosbitalManagmentSystem.BLL.pdb

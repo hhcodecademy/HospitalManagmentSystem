@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HosbitalManagmentSystem.UI/1.0.0": {
+        "dependencies": {
+          "HosbitalManagmentSystem.BLL": "1.0.0"
+        },
+        "runtime": {
+          "HosbitalManagmentSystem.UI.dll": {}
+        }
+      },
+      "HosbitalManagmentSystem.BLL/1.0.0": {
+        "runtime": {
+          "HosbitalManagmentSystem.BLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HosbitalManagmentSystem.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HosbitalManagmentSystem.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
