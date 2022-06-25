@@ -1,4 +1,5 @@
-﻿using HosbitalManagmentSystem.BLL.Models;
+﻿using HosbitalManagmentSystem.BLL.Enums;
+using HosbitalManagmentSystem.BLL.Models;
 using HosbitalManagmentSystem.BLL.ServiceOperations;
 using System;
 
@@ -8,6 +9,7 @@ namespace HosbitalManagmentSystem.UI
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             menu();
         }
         public static void menu()

@@ -15,6 +15,10 @@ namespace HosbitalManagmentSystem.BLL.Models
         {
             ID =  CustomIDGenerator.GetCurrentTimeId();
         }
+        public override string ToString()
+        {
+            return this.Number + ";" +this.ID + ";" +this.Name + ";" +this.Description;
+        }
 
     }
 }

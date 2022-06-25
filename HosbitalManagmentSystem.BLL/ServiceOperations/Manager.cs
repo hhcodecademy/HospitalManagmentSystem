@@ -1,4 +1,5 @@
-﻿using HosbitalManagmentSystem.BLL.Models;
+﻿using HosbitalManagmentSystem.BLL.Enums;
+using HosbitalManagmentSystem.BLL.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,12 +8,16 @@ namespace HosbitalManagmentSystem.BLL.ServiceOperations
 {
     public class Manager<T>
     {
-        public static void serviceCall() {
+        public static void serviceCall()
+        {
 
             Type doctor = typeof(Doctor);
-            if (typeof(T)== doctor)
+            if (typeof(T) == doctor)
             {
+
                 DoctorManager.AddDoctor();
+
+
             }
 
             Type qualification = typeof(Qualification);
@@ -23,7 +28,10 @@ namespace HosbitalManagmentSystem.BLL.ServiceOperations
             Type position = typeof(Position);
             if (typeof(T) == position)
             {
-                PositionManager.AddPosition();
+                PositionManager.ChooseStorage();
+
+
+
             }
         }
     }
